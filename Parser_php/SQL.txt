@@ -1,0 +1,8 @@
+CREATE TABLE `posts` (
+ `amount` int(255) NOT NULL,
+ `ooc` int(255) NOT NULL,
+ `email` varchar(255) COLLATE utf16_unicode_ci NOT NULL,
+ `link` varchar(255) COLLATE utf16_unicode_ci NOT NULL,
+ `id` int(15) NOT NULL AUTO_INCREMENT,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf16 COLLATE=utf16_unicode_ci
